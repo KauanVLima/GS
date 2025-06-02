@@ -30,6 +30,11 @@ nav ul li a{
     text-decoration: none;
 }
 
+.integrantes{
+    position: absolute;
+    right: 30px;
+}
+
 nav ul li a:hover{
     text-decoration: underline;
     color: #fff;

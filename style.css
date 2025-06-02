@@ -39,11 +39,31 @@ footer nav ul li{
 }
 
 footer nav ul li a{
+    color: #a40d0d;
     font-size: large;
     text-decoration: none;
 }
 
+.faq{
+    position: absolute;
+    left: 15px;
+    top: 80%;
+}
+
+.contato{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 50%;
+}
+
+.integrantes{
+    position: absolute;
+    top: 80%;
+    right: 15px;
+}
+
 footer nav ul li a:hover{
     text-decoration: underline;
-    color: #a40d0d;
+    color: #000;
 }
