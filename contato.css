@@ -1,0 +1,36 @@
+body{
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+}
+
+header{
+    color: #d1433c;
+    font-size: larger;
+}
+
+section img{
+    align-items: center;
+    width: 130px;
+    height: 60px;
+}
+
+section h2{
+    color: #ff5d54;
+}
+
+nav ul li{
+    width: 100px;
+    height: 20px;
+    color: transparent;
+}
+
+nav ul li a{
+    color: #ff5d54;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}

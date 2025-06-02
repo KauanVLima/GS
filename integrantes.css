@@ -1,0 +1,31 @@
+body{
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+}
+
+header{
+    color: #00ffff;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    vertical-align: baseline;
+    gap: 50%;
+}
+
+nav ul li{
+    color: transparent;
+}
+
+nav ul li a{
+    color: #0ff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}

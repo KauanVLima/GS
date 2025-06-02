@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+}
+
+section ul{
+    display: flex;
+    margin-left: 30%;
+}
+
+section p{
+    text-align: center;
+}
+
+.alerta{
+    color: #a40d0d;
+    font-size: large;
+}
+
+button{
+    color: #fff;
+    font-size: large;
+    background-color: #a40d0d;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    height: 30vh;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    vertical-align: baseline;
+    gap: 20%;
+}
+
+footer nav ul li{
+    color: transparent;
+}
+
+footer nav ul li a{
+    font-size: large;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    text-decoration: underline;
+    color: #a40d0d;
+}
