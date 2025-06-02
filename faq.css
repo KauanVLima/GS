@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+
+header h1{
+    color: #38c394;
+}
+
+.resposta{
+    color: #38c394;
+}
+
+nav ul li{
+    color: transparent;
+}
+
+nav ul li a{
+    color: #38c394;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.index{
+    position: absolute;
+    top: 80%;
+    left: 20px;
+}
+
+.contato{
+    position: absolute;
+    top: 80%;
+    right: 20px;
+}
