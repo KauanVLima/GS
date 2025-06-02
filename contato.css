@@ -12,7 +12,6 @@ header{
 section img{
     align-items: center;
     width: 130px;
-    height: 60px;
 }
 
 section h2{
@@ -20,6 +19,7 @@ section h2{
 }
 
 nav ul li{
+    display: block;
     width: 100px;
     height: 20px;
     color: transparent;
