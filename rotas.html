@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotas</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rotas Seguras</title>
 
-    <link rel="stylesheet" href="rotas.css">
+  <!-- Leaflet CSS via CDN -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha512-sA+z0pYBd+jztF8hVb6Wf8p+0/pq4lF+53np+uQfXc8F6To8tQuQWXo2c4yRbSRaVJp2YV9Vi0zAcZlROtF7kQ=="
+    crossorigin=""
+  />
 
-    <script src="rotas.js"></script>
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="rotas.css">
+
+    <!-- Leaflet JS via CDN -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha512-o9N1j7KMFs8R7YJFtI+hwgK5BFxgKMlCPV6r8mXPL6p2OrR8FeqXjBi0QpXqI6bFbpx5g/vRz4MCOUAdW9xZjw=="
+    crossorigin=""
+  defer></script>
+
+  <!-- Seu JS -->
+  <script src="rotas.js"defer></script>
 </head>
+
 <body>
+
+  <button id="btnAtualizar" title="Atualizar localização">Atualizar Localização</button>
+  <div id="map">
     
+  </div>
+
+
 </body>
 </html>
