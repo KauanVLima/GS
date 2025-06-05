@@ -16,6 +16,11 @@ section p{
     font-size: large;
 }
 
+section button{
+    
+    margin-left: 25%;
+}
+
 button{
     color: #fff;
     font-size: large;
@@ -26,7 +31,7 @@ button{
     height: 30vh;
 }
 
-footer ul{
+ul{
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -34,11 +39,11 @@ footer ul{
     gap: 20%;
 }
 
-footer nav ul li{
+nav ul li{
     color: transparent;
 }
 
-footer nav ul li a{
+nav ul li a{
     color: #a40d0d;
     font-size: large;
     text-decoration: none;
@@ -63,7 +68,7 @@ footer nav ul li a{
     right: 15px;
 }
 
-footer nav ul li a:hover{
+nav ul li a:hover{
     text-decoration: underline;
     color: #000;
 }
